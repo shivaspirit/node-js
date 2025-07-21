@@ -24,6 +24,8 @@ jobs:
   steps:
    - name: Echoing ENV Variables on Job2
      run: echo "My Name is $NAME living in $PLACE"
+     env:
+      PLACE: 'LONDON'
 
   
   
