@@ -19,7 +19,8 @@ jobs:
 
  job2:
   env:
-   NAME: ${{ env.NAME }}
+   FN: 'YYY'
+   NAME: ${{ env.FN }}
   runs-on: ubuntu-latest
   steps:
    - name: Echoing ENV Variables on Job2
